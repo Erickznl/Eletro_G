@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+	#include <stdlib.h>
+
+int main () {
+
+    float km;
+    float litros; 
+    printf("Voce percorreu");
+    scanf("%f", &km);
+    printf("voce gastou");
+    scanf("%f", &litros);
+
+    float total = km / litros;
+
+    printf("%f km//L", total );
+
+
+
+
+}
