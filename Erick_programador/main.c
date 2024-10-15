@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+    int C = 200;    
+    int J = 587;    
+    float M = 2;    
+    int JJ = 3 + J;  
+    printf("1 somado com %d será %d\n", J, JJ); 
+
+    float JJJ = JJ / 100.0;  
+    printf("%d dividido por 100 chegará ao resultado %.2f\n", JJ, JJJ);
+
+    
+    float JM = pow(JJJ, M);  
+    printf("%.2f elevado ao %.2f o resultado será %.2f\n", JJJ, M, JM); 
+
+
+    double CM = C * JM;  
+    printf("E chegando ao final o resultado será %d por %.2f que irá dar %.2f\n", C, JM, CM); 
+
+    return 0; 
+}
