@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main () {
+printf  ("Tabela ASCII (33 A 255)");
+printf ("------------------\n");
+printf ("| Decimal | Hexagonal | Caracter |\n");
+printf ("------------------\n");
+
+for (int i = 33; i <= 255; i++){
+    printf ("|    %3d    |    %02X    |    %c    |\n", i, i,  (char)i);
+}
+
+printf ("------------------\n");
+return 0;
+}
